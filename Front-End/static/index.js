@@ -120,5 +120,8 @@ function addDataAction() {
 }
 
 function checkAction(){
- 
+  document.getElementById('result').innerHTML = 'Good job! Thanks for helping me to find the name of the animal. Yes, it is a dog!';
+    return false;
 }
+
+document.getElementById('feedback').addEventListener('click', checkAction);

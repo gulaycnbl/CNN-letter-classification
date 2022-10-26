@@ -15,7 +15,7 @@
       <canvas id="canvas" width="200" height="200"></canvas>
     </div>
     <div style="padding: 1rem;">
-      
+      <div id="result"></div>
       <!--
       {% if message %}
         <p style="font-size: 0.75rem;">{{message}}</p>
@@ -33,7 +33,7 @@
         <input id="letter" name="letter" type="hidden" value="{{letter}}" />
         
         <button type="button" class="button is-success" onclick="addDataAction()">add letter</button>
-        <button type="button" class="button is-success" onclick="checkAction()">check answer</button>
+        <button type="button" class="button is-success" id="feedback" onclick="checkAction()">check answer</button>
         <button type="button" class="button is-info" onclick="resetCanvas()">clear</button>
       </form>
     </div>
