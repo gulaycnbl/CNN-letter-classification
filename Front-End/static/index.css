@@ -1,5 +1,5 @@
 html {
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(20, 182, 231);
     font-family: sans-serif;
     padding: 1rem;
 }
@@ -19,7 +19,8 @@ html {
 }
 
 .box p {
-    margin-top: 1rem;
+    width: 300px;
+    margin-top: 2rem;
 }
 
 .title {
